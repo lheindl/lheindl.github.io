@@ -7,14 +7,24 @@ body{
     
 }
 
+h1, h2, a, p {
+
+    font-family:'Courier New', Courier, monospace;
+
+}
 
 h1{
-    font-family:fantasy;
+   
+
+}
+
+h2{
 
 }
 
 p {
     color: rgb(31, 101, 31);
+    font-size: 50px;
 }
 
 a {
@@ -28,5 +38,5 @@ a:hover {
   color: transparent;      
   transition: all 0.4s ease;
   cursor: pointer;
-  font-family: fantasy;
+  
 }
