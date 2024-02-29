@@ -1,7 +1,7 @@
 
 
 @font-face {
-    font-family: "Out";
+    font-family: 'Out';
     src: url('../font/outward-block-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -17,7 +17,7 @@ body{
 }
 
 h1, h2 {
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Out', Times, sans-serif;
     font-size: 170px;
     color: rgb(0, 31, 24);
     margin-left: 20vw; 
@@ -25,7 +25,7 @@ h1, h2 {
 
 
 p, a {
-    font-family: "Out", sans-serif;
+    font-family: 'Out', sans-serif;
     font-size: 170px;
     color: rgb(0, 31, 24);
     margin-left: 0;
