@@ -20,7 +20,7 @@ body{
 h1, h2, a, p {
 
 
-    font-family:"Out", san-serif; 
+    font-family:"Out", sans-serif; 
     font-size: 170px;
     font-family:'Out';
     color: rgb(0, 31, 24);
@@ -30,10 +30,7 @@ h1, h2, a, p {
 a {
     color:rgb(0, 255, 102);
     text-decoration: none;
-    font-size: 170px;
-    font-family:'Out';
     
-
 }
 
 a:hover {
