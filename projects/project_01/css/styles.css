@@ -22,19 +22,21 @@ body{
     
 }
 
-
+/*
 h1, h2, a, p {
 
 
     font-family:'Out';
 
 }
+*/
 
 
 h1{
 
     color: rgb(0, 31, 24);
     font-size: 170px;
+    font-family:'Out';
    
 
 }
@@ -43,6 +45,7 @@ h2{
 
     color: rgb(0, 31, 24);
     font-size: 170px;
+    font-family:'Out';
 
 }
 
