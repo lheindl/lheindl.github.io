@@ -33,23 +33,21 @@ h1, h2, a, p {
 
 h1{
 
-    color: rgb(236, 222, 222);
+    color: rgb(0, 31, 24);
     font-size: 170px;
-    font-family:'Out2';
    
 
 }
 
 h2{
 
-    color: rgb(236, 222, 222);
+    color: rgb(0, 31, 24);
     font-size: 170px;
-    font-family:'Out2';
 
 }
 
 p {
-    color: rgb(236, 222, 222);
+    color: rgb(0, 31, 24);
     font-size: 170px;
     font-family:'Out';
 }
