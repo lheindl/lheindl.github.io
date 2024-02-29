@@ -19,11 +19,11 @@ p {
 
 a {
     color:blueviolet;
-    text-decoration: none;
+    
 
 }
 
-a :hover {
+a:hover {
     text-shadow: 0 0 72px yellow; 
   color: transparent;      
   transition: all 0.4s ease;
