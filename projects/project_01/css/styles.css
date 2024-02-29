@@ -1,12 +1,18 @@
 
 
 @font-face {
-    font-family: 'Trickster';
-    src: url('../font/Trickster-Reg.otf') format('opentype');
+    font-family: 'Out';
+    src: url('../font/outward-block-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Out2';
+    src: url('../font/outward-round-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     background: rgb(255,180,213);
     background: radial-gradient(circle, rgba(255,180,213,1) 0%, rgba(48,254,98,1) 64%, rgba(176,212,255,1) 100%);
@@ -16,17 +22,20 @@ body{
     
 }
 
+/*
 h1, h2, a, p {
 
 
     font-family:'Trickster';
 
 }
+*/
 
 h1{
 
     color: rgb(255, 255, 255);
     font-size: 60px;
+    font-family:'Out2';
    
 
 }
@@ -35,17 +44,20 @@ h2{
 
     color: rgb(255, 255, 255);
     font-size: 30px;
+    font-family:'Out2';
 
 }
 
 p {
     color: rgb(255, 255, 255);
     font-size: 30px;
+    font-family:'Out';
 }
 
 a {
     color:rgb(0, 255, 102);
     text-decoration: none;
+    font-family:'Out';
     
 
 }
