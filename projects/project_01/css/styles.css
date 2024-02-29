@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Trickster';
-    src: url('font/Trickster-Reg.otf') format('otf');
+    src: url('font/Trickster-Reg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
