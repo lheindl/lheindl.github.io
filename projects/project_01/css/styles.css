@@ -1,14 +1,14 @@
 
 
 @font-face {
-    font-family: 'Out';
+    font-family: "Out";
     src: url('../font/outward-block-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Out2';
+    font-family: "Out2";
     src: url('../font/outward-round-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -22,23 +22,23 @@ body{
     
 }
 
-/*
+
 h1, h2, a, p {
 
 
-    font-family:'Out';
+    font-family:"Out", san-serif; 
 
 }
-*/
+
 
 
 h1{
 
     color: rgb(0, 31, 24);
     font-size: 90px;
-    font-family:'Out';
 
-   
+
+
 
 }
 
@@ -54,7 +54,7 @@ h2{
 p {
     color: rgb(0, 31, 24);
     font-size: 170px;
-    font-family:'Out';
+
 }
 
 a {
