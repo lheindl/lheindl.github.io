@@ -1,11 +1,11 @@
 
 
 body{
-    margin: 50%;
+    margin-left: 50%;
     
 }
 
-p, h2, h1 {
+p {
     color: rgb(31, 101, 31);
 }
 
@@ -16,7 +16,6 @@ a {
 }
 
 a :hover {
-
     color: yellow;
     font-family: fantasy;
 }
