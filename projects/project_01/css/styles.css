@@ -22,19 +22,19 @@ body{
     
 }
 
-/*
+
 h1, h2, a, p {
 
 
-    font-family:'Trickster';
+    font-family:'Out';
 
 }
-*/
+
 
 h1{
 
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: rgb(236, 222, 222);
+    font-size: 170px;
     font-family:'Out2';
    
 
@@ -42,15 +42,15 @@ h1{
 
 h2{
 
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: rgb(236, 222, 222);
+    font-size: 170px;
     font-family:'Out2';
 
 }
 
 p {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: rgb(236, 222, 222);
+    font-size: 170px;
     font-family:'Out';
 }
 
