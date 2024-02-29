@@ -1,5 +1,22 @@
 
 
 body{
-    margin: 50%
+    margin: 50%;
+    
+}
+
+p h1 h2 {
+    color: rgb(31, 101, 31);
+}
+
+a {
+    color:blueviolet;
+    text-decoration: none;
+
+}
+
+a :hover {
+
+    color: yellow;
+    font-family: fantasy;
 }
