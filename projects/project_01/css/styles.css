@@ -1,5 +1,12 @@
 
 
+@font-face {
+    font-family: 'Trickster';
+    src: url('fonts/Trickster-Reg.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background: rgb(255,180,213);
     background: radial-gradient(circle, rgba(255,180,213,1) 0%, rgba(48,254,98,1) 64%, rgba(176,212,255,1) 100%);
@@ -11,7 +18,8 @@ body{
 
 h1, h2, a, p {
 
-    font-family:Arial, Helvetica, sans-serif;
+
+    font-family:'Trickster';
 
 }
 
