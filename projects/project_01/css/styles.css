@@ -37,6 +37,7 @@ h1{
     color: rgb(0, 31, 24);
     font-size: 170px;
     font-family:'Out';
+    margin-left: 30vw;
    
 
 }
@@ -46,6 +47,7 @@ h2{
     color: rgb(0, 31, 24);
     font-size: 170px;
     font-family:'Out';
+    margin-left: 30vw;
 
 }
 
@@ -58,6 +60,7 @@ p {
 a {
     color:rgb(0, 255, 102);
     text-decoration: none;
+    font-size: 170px;
     font-family:'Out';
     
 
