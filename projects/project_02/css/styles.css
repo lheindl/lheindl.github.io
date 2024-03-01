@@ -25,15 +25,15 @@ p, a {
 
 
 a {
-    color:rgb(0, 255, 102);
+    color:rgb(0, 0, 0);
     text-decoration: none;
 
 }
 
 a:hover {
-  text-shadow: 0 0 72px hsl(308, 100%, 50%); 
+  text-shadow: 0 0 72px hsl(0, 0%, 100%); 
   color: transparent;      
-  transition: all 0.7s ease;
+  transition: all 0.4s ease;
   cursor: pointer;
   
 }
