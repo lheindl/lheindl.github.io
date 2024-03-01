@@ -37,9 +37,11 @@ a:hover {
 }
 
 img {
-    opacity: 0.05;
+    opacity: 0;
+    margin-left: 120vw; 
   }
   
   img:hover {
     opacity: 1.0;
+    
   }
