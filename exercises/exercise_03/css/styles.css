@@ -1,0 +1,308 @@
+/* 
+---------------------------------
+Base styles
+---------------------------------
+*/
+
+.test-title + p {
+	color: blue;
+}
+
+.alert-button {
+
+}
+
+body {
+	background-color: #e3f4ec;
+	color: rgb(129, 78, 19);
+	max-width: 800px;
+	margin: 0 0 0 50%;
+	position: relative;
+	padding: 4rem;
+}
+
+/* grid layout example */
+/* body {
+	background-color: #e3f4ec;
+	color: rgb(129, 78, 19);
+	max-width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 4rem;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+	gap: 2rem;
+	align-items: start;
+} */
+
+p {
+	/* font-size: 20px; */
+	font-family: sans-serif;
+	color: rgb(25, 105, 61);
+}
+
+a:hover {
+	color: blueviolet;
+}
+
+img {
+	width: 100%;
+	display: inline-block;
+	/* border: 1px solid black; */
+	/* padding: 1rem; */
+	/* box-sizing: border-box; */
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ol ol {
+	padding-left: 2rem;
+}
+
+
+/* 
+---------------------------------
+Navigation styles
+---------------------------------
+*/
+
+.navigation {
+	border: 1px solid darkgoldenrod;
+	/* position: fixed; */
+	position: relative;
+	/* top: 2rem; */
+	/* left: 2rem; */
+	padding: 1rem;
+	margin: 1rem;
+}
+
+/* grid layout example */
+/* .navigation {
+	border: 1px solid darkgoldenrod;
+	position: sticky;
+	top: 2rem;
+	padding: 1rem;
+} */
+
+.navigation ol {
+	list-style: none;
+}
+
+.navigation li {
+	border-bottom: 1px solid darkgoldenrod; /* border-width, border-style, border-color */
+}
+
+/* .navigation > ol > li:last-child {
+	border-bottom: none;
+} */
+
+.navigation__primary > li:last-child {
+	border-bottom: none;
+}
+
+.navigation a {
+	display: block;
+	text-decoration: none;
+	padding: 0.5rem;
+	font-family: sans-serif;
+	color: darkgoldenrod;
+
+	transition: color 1s ease;
+
+	/* &:hover {
+		color: black;
+	} */
+}
+
+.navigation a:hover {
+	color: black;
+}
+
+/* navigation target example */
+/* :target:before {
+	content: "♦";
+	display: inline-block;
+	animation: current-header 1s ease infinite reverse;
+}
+
+@keyframes current-header {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+} */
+
+/* .navigation__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation__item {
+
+}
+
+.navigation__link {
+	display: block;
+	text-decoration: none;
+	padding: 0.5rem;
+	font-family: sans-serif;
+	color: darkgoldenrod;
+} */
+
+
+/* 
+---------------------------------
+Essay styles
+---------------------------------
+*/
+
+.intro-text {
+	background-color: lightgreen;
+	font-family: serif;
+	color: green;
+}
+
+.callout {
+	font-size: 30px;
+	font-style: italic;
+	color: cornflowerblue;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid cornflowerblue;
+	margin: 0;
+	padding: 0;
+	/* box model example */
+	/* width: 100%; */
+	padding: 1rem;
+	margin: 2rem;
+	box-sizing: content-box;
+	/* width: calc(100% - 4rem); */
+}
+
+
+/* 
+---------------------------------
+Related articles styles
+---------------------------------
+*/
+
+/* border-box example */
+.related {
+	background-color: rgb(224, 130, 255);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.related__section-title {
+  flex-basis: 100%;
+	/* font-family: 'Courier New', Courier, monospace; */
+}
+
+.related__essay {
+	background-color: rgb(136, 225, 255);
+	margin-bottom: 1rem;
+	width: 100%;
+  padding: 1rem;
+  flex-basis: calc(100%/3);
+	/* padding: 1rem; */
+	box-sizing: border-box;
+	/* margin: 1rem; */
+}
+
+.related__title {
+	/* font-family: sans-serif; */
+}
+
+.related__author {
+	/* font-family: sans-serif; */
+}
+
+/* flexbox example */
+/* .related {
+	background-color: rgb(254, 255, 193);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.related__section-title {
+	flex-basis: 100%;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.related__essay {
+	border: 1px solid black;
+	background-color: rgb(175, 214, 227);
+	padding: 1rem;
+	flex-basis: calc(100% / 3);
+	box-sizing: border-box;
+}
+
+.related__title {
+	font-family: sans-serif;
+}
+
+.related__author {
+	font-family: sans-serif;
+} */
+
+/* nth-child example */
+/* .related__essay:nth-child(odd) {
+	background-color: rgb(175, 214, 227);
+}
+
+.related__essay:nth-child(odd) {
+	background-color: rgb(175, 227, 210);
+} */
+
+
+
+/* 
+---------------------------------
+Bio styles
+---------------------------------
+*/
+
+/* .bio {
+	background-color: rgb(254, 255, 193);
+	display: inline-block;
+	width: 100%;
+	border: 1px solid black;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.bio__profile {
+	background-color: rgb(255, 233, 193);
+	display: inline-block;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	margin-right: 5%;
+}
+
+.bio__headshot {}
+
+.bio__title {}
+
+.bio__description {
+	background-color: rgb(255, 193, 193);
+	display: inline-block;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+
+.bio__text {}
+
+.bio__link {
+	display: inline-block;
+	background-color: aquamarine;
+	padding: 0 0.5rem;
+	transform: rotate(5deg);
+} */
