@@ -1,0 +1,37 @@
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(189,189,189,1) 19%, rgba(255,255,255,1) 100%);
+
+    
+}
+
+h1, h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(0, 31, 24);
+    margin-left: -20vw; 
+}
+
+
+p, a {
+    font-family: 'Out', sans-serif;
+    font-size: 170px;
+    color: rgb(0, 31, 24);
+    margin-left: 0;
+}
+
+
+a {
+    color:transparent;
+    text-decoration: none;
+
+}
+
+a:hover {
+  text-shadow: 0 0 42px hsl(0, 0%, 0%); 
+  color: transparent;      
+  transition: all 0.4s ease;
+  cursor: pointer;
+  
+}
