@@ -12,17 +12,17 @@ Base styles
 
 }
 
-body {
+/* body {
 	background-color: #e3f4ec;
 	color: rgb(129, 78, 19);
-	max-width: 800px;
+	max-width: 100%;
 	margin: 0 0 0 50%;
 	position: relative;
 	padding: 4rem;
-}
+} */
 
 /* grid layout example */
-/* body {
+body {
 	background-color: #e3f4ec;
 	color: rgb(129, 78, 19);
 	max-width: 100%;
@@ -33,7 +33,7 @@ body {
 	grid-template-columns: 400px 1fr;
 	gap: 2rem;
 	align-items: start;
-} */
+}
 
 p {
 	/* font-size: 20px; */
