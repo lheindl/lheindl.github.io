@@ -1,7 +1,7 @@
 
 body{
     background: rgb(0,0,0);
-    background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(189,189,189,1) 19%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(-90deg, rgba(0,0,0,1) 0%, rgba(189,189,189,1) 10%, rgba(255,255,255,1) 100%);
 
     
 }
@@ -38,7 +38,7 @@ a:hover {
 
 img {
     opacity: 0;
-    margin-left: 120vw; 
+    margin-left: 40vw; 
   }
   
   img:hover {
