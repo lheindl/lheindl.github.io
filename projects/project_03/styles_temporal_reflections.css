@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.word {
+    color: transparent; /
+}
+
+.first-word, .last-word {
+    color: white; /
+}
+.word:hover {
+ text-shadow: 0 0 42px hsl(0, 0%, 0%); 
+  color: transparent;      
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+
+.word.clicked {
+    color: white; 
+    font-style: italic;
+}
