@@ -52,6 +52,6 @@ body {
     font-family: 'IBM Plex Mono Italic', sans-serif;
     font-weight: normal;
     font-style: italic;
-   border: 2px solid rgba(255, 255, 255, 1);
+   border: 1px solid rgba(255, 255, 255, 1);
     padding: 4px;
 }
