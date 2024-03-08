@@ -32,18 +32,21 @@ h1 {
     font-size: 24px;
     font-weight: normal;
     margin: 0;
+    font-family: 'IBM Plex Mono Regular';
 }
 
 h2 {
     font-size: 18px;
     font-weight: normal;
     margin: 0 0 20px 0;
+    font-family: 'IBM Plex Mono Regular';
 }
 
 h3 {
     font-size: 16px;
     font-weight: normal;
     margin: 10px 0;
+    font-family: 'IBM Plex Mono Regular';
 }
 
 a {
