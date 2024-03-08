@@ -22,7 +22,7 @@ body {
 
 .container {
   width: 80vw;
-  margin: 0 auto;
+  margin: 20% auto;
   border: 1px solid white;
   padding: 40px;
   display: grid;
