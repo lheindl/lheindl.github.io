@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         words.push(word);
     }
 
-    // BEGINNING AND END OF THINGI
+    // BEGINNING AND END OF THINGI!!!!!!!
     addWord('on', true); // FIRST WORD
     addWord('earth', true); // LAST WORD
 
