@@ -81,7 +81,7 @@ Navigation styles
 .navigation {
 	border: 1px solid darkgoldenrod;
 	/* position: fixed; */
-	position: relative;
+	position: sticky;
 	/* top: 2rem; */
 	/* left: 2rem; */
 	padding: 1rem;
